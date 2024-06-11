@@ -1,7 +1,10 @@
-import { describe, it, expect } from 'vitest';
+// import { describe, it, expect } from 'vitest';
+// import
 
-describe('sum test', () => {
-	it('adds 1 + 2 to equal 3', () => {
-		expect(1 + 2).toBe(3);
-	});
-});
+// describe('add task', () => {
+// 	it('should add an empty task to the current list of tasks at the beginning', () => {
+// 		let tasks = []
+
+// 		expect(1 + 2).toBe(3);
+// 	});
+// });

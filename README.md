@@ -1,38 +1,24 @@
-# create-svelte
+# Task Manager
 
-Everything you need to build a Svelte project, powered by [`create-svelte`](https://github.com/sveltejs/kit/tree/main/packages/create-svelte).
+A simple app for quickly and efficiently organising and keeping track of your tasks.
 
-## Creating a project
+## Info
 
-If you're seeing this, you've probably already done this step. Congrats!
+My first Svelte/SvelteKit project. Though I'm continuing to learn React, Svelte caught my eye after hearing many positive things about it, such as having a compiler which allows it to run fast, and also having features built into SvelteKit such as routing and stores. So I decided to try it out and make a project.
 
-```bash
-# create a new project in the current directory
-npm create svelte@latest
+This project is made with TypeScript.
 
-# create a new project in my-app
-npm create svelte@latest my-app
-```
+## Tech Stack
 
-## Developing
+- Svelte
+- SvelteKit
+- TypeScript
 
-Once you've created a project and installed dependencies with `npm install` (or `pnpm install` or `yarn`), start a development server:
+## Update Log
 
-```bash
-npm run dev
+### 11th June 2024
 
-# or start the server and open the app in a new browser tab
-npm run dev -- --open
-```
-
-## Building
-
-To create a production version of your app:
-
-```bash
-npm run build
-```
-
-You can preview the production build with `npm run preview`.
-
-> To deploy your app, you may need to install an [adapter](https://kit.svelte.dev/docs/adapters) for your target environment.
+- First push to GitHub
+- Able to add tasks (only the names), check tasks off, and edit task names.
+- Uses types for a 'task item'
+- Visual line through task name when checked
