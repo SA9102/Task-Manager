@@ -1,5 +1,6 @@
-<script>
+<script lang="ts">
 	export let task;
+	export let handleDeleteTask;
 </script>
 
 <div class="task-item">
@@ -14,6 +15,7 @@
 			<p class={task.isComplete ? 'task-complete' : ''}>{task.name}</p>
 		</div>
 		<button on:click={() => (task.isEditing = true)}>Edit</button>
+		<button on:click={() => handleDeleteTask(task.id)}>Delete</button>
 	{/if}
 </div>
 
